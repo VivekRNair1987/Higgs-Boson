@@ -17,7 +17,7 @@ feat_cols = ['DER_mass_MMC', 'DER_mass_transverse_met_lep', 'DER_prodeta_jet_jet
        'PRI_jet_leading_phi', 'PRI_jet_subleading_pt',
        'PRI_jet_subleading_eta', 'PRI_jet_subleading_phi', 'Weight']
 
-final = joblib.load(curr_path + r"\final_bestmodel11.joblib")
+final = joblib.load(curr_path + r"//final_bestmodel11.joblib")
 print(final)
 
 print(final)
